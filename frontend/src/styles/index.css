@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+}
+
+body {
+  color: #1c2a33;
+}
+
+/* Signature element: a physical queue-ticket stub, used on the Token page.
+   Perforated notches on either side + a dashed tear-line, evoking the
+   real paper tokens citizens already recognise from government offices. */
+.ticket-stub {
+  position: relative;
+  background: #ffffff;
+  border-radius: 4px;
+  background-image: radial-gradient(circle at 0 50%, transparent 11px, #ffffff 11.5px),
+    radial-gradient(circle at 100% 50%, transparent 11px, #ffffff 11.5px);
+}
+
+.ticket-stub::before {
+  content: '';
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  top: 50%;
+  border-top: 2px dashed #C9C2AC;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+}
+
+:focus-visible {
+  outline: 2px solid #0F3D5C;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

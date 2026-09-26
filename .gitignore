@@ -1,0 +1,10 @@
+node_modules/
+.env
+backend/uploads/*
+!backend/uploads/.gitkeep
+ai-service/venv/
+ai-service/__pycache__/
+ai-service/*.joblib
+ai-service/data/sample_training_data.csv
+dist/
+.DS_Store
