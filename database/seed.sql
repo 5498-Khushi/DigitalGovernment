@@ -6,7 +6,7 @@
 
 
 
-SET @pw = '$2b$10$CwTycUXWue0Thq9StjUM0uJ8k1WOOjOFcYvIrOWpxxOmYh5ZQE2Wa'; -- Password123
+SET @pw = '$2b$10$6YCePpN1NibG0GAg7gaL9uGvXZil/ovWbpbTr3sVEw2vr68p8gf5a'; -- Password123
 
 -- Users
 INSERT INTO users (name, email, mobile, password_hash, role) VALUES
