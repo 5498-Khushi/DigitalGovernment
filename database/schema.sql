@@ -3,11 +3,6 @@
 -- MySQL Schema
 -- ============================================================
 
-CREATE DATABASE IF NOT EXISTS citizen_service_system
-  CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
-USE citizen_service_system;
-
 -- ------------------------------------------------------------
 -- USERS  (citizen | staff | admin)
 -- ------------------------------------------------------------

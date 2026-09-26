@@ -4,7 +4,7 @@
 -- (bcrypt hash below corresponds to that password)
 -- ============================================================
 
-USE citizen_service_system;
+
 
 SET @pw = '$2b$10$CwTycUXWue0Thq9StjUM0uJ8k1WOOjOFcYvIrOWpxxOmYh5ZQE2Wa'; -- Password123
 
